@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    border-color: #1475958e;
+}
+
+#title{
+    background-color: black;
+    color: #ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.title{
+    padding: 3% 25% 10% 15%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+}
+
+.about{
+    background-color: aliceblue;
+    position: relative;
+    z-index: 1;
+}
+.para{
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 2;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.about-image{
+    height: 250px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid{
+    padding: 3% 10% 7%;
+}
+
+
+.button{
+    margin: 5% 1%;
+}
+
+/* Education */
+#education{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    padding: 0% 10%;
+    background-color: black;
+    
+}
+
+.ed{
+    position: relative;
+    bottom: 60px;
+    z-index: 2;
+}
+
+.card:hover{
+    background-color: #ffff;
+    color: black;
+}
+
+/* skill */
+.skill{
+    margin-bottom: 5%;
+}
+
+.Hard-skill-Soft-skill{
+    margin: 2%;
+    text-align: left;
+}
+
+
+/* Projects */
+#carouselExampleIndicators{
+    padding: 10% 15%;
+    background-color: aliceblue;
+}
+
+/* .project-link{
+    text-align: center;
+    font-family: 'Montserrat-Black', sans-serif;
+    color: azure;
+    margin-top: 2vw;
+}
+.project-link:hover{
+    color: #47B5FF;
+} */
+
+
+#footer{
+    text-align: center;
+    background-color: black;
+    padding: 7% 15%;
+    color: white;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+.bracket{
+    color: crimson;
+    margin-left: 10rem;
+}
